@@ -1,5 +1,7 @@
 
 
-from us_visa.logger import logging
+from us_visa.pipeline.training_pipeline import TrainPipeline
 
-logging.info("mother fucker")
+obj=TrainPipeline()
+obj.run_pipeline()
+
